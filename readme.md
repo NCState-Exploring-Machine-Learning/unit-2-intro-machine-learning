@@ -6,7 +6,13 @@ Make sure pip is at least version 24.2
 Install the requirements using:
 `python3 -m venv .unit-2-env`
 
-`./.unit-2-env/scripts/activate`
+Then activate it in terminal:
+
+Windows: `.\.venv\Scripts\activate`
+
+Mac: `source ./.venv/bin/activate`
+
+Linux: `source ./.venv/bin/activate`
 
 `python3 -m pip install -r ./requirements.txt`
 
